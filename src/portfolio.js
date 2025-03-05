@@ -23,7 +23,7 @@ const greeting = {
     nickname: "Nikki",
     subTitle:`A passionate individual with 6 years of experience in software development experience.\n Proven expertise in designing, developing and deploying scalable, high performance applications.\n Specilisation in building end to end cloud applications which creates an impact. With domain experties in  Web-data crawling, processing of eCommerce platforms, and Catalog Platforms. Strong problem-solving skills and a passion for continuous learning.`,
     resumeLink: "https://drive.google.com/file/d/1tzh294-bv6UlK2EF-eQ61JbsMQ1tTzio/view?usp=sharing",
-    portfolio_repository: "https://github.com/nikitha12/masterPortfolio",
+    portfolio_repository: "https://github.com/nikitha12/Portfolio",
     githubProfile: "https://github.com/nikitha12",
 };
 
