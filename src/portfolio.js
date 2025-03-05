@@ -580,7 +580,7 @@ const contactPageData = {
     contactSection: {
         title: "Contact Me",
         profile_image_path: "animated_nikitha.png",
-        description: "I am available on Linked In. You can message me, I will reply within 24 hours Or Contact me over call +49 1556 3248034",
+        description: "I am available on Linked In. I will reply within 24 hours. Or Contact me over mail",
     },
     
     blogSection: {
