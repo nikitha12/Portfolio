@@ -141,9 +141,8 @@ const skills = {
             title: "Full Stack Development",
             fileName: "FullStackImg",
             skills: [
-                "⚡ Builds seamless applications, connecting Node.js/Express.js backends with Angular frontends.",
+                "⚡ Builds seamless applications, connecting Node.js/Express.js backends with Angular frontends and deploying in GCP.",
                 "⚡ Proficient in designing and building RESTful APIs, adhering to best practices for resource management and data exchang",
-                "⚡ Creating application backend in Node, Express and deploying in GCP",
                 "⚡ Skilled in implementing security measures, including authentication and authorization"
             ],
             softwareSkills: [{

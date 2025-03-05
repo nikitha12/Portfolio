@@ -2,7 +2,7 @@
   "private": true,
   "name": "Portfolio",
   "version": "0.1.0",
-  "homepage": "https://nikitha12.github.io/Portfolio/",
+  "homepage": "https://nikitha12.github.io/",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
