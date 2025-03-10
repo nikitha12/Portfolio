@@ -21,7 +21,7 @@ const greeting = {
     title: "Nikitha Nimbalkar",
     logo_name: "Nikitha Nimbalkar",
     nickname: "Nikki",
-    subTitle:`A passionate individual with 6 years of experience in software development experience.\n Proven expertise in designing, developing and deploying scalable, high performance applications.\n Specilisation in building end to end cloud applications which creates an impact. With domain experties in  Web-data crawling, processing of eCommerce platforms, and Catalog Platforms. Strong problem-solving skills and a passion for continuous learning.`,
+    subTitle:`A passionate individual with 6 years of experience in software development experience.\n Proven expertise in designing, developing and deploying scalable, high performance applications.\n Specialization in building end to end cloud applications which creates an impact. With domain experties in  Web-data crawling, processing of eCommerce platforms, and Catalog Platforms. Strong problem-solving skills and a passion for continuous learning.`,
     resumeLink: "https://drive.google.com/file/d/1tzh294-bv6UlK2EF-eQ61JbsMQ1tTzio/view?usp=sharing",
     portfolio_repository: "https://github.com/nikitha12/Portfolio",
     githubProfile: "https://github.com/nikitha12",
@@ -54,9 +54,9 @@ const skills = {
             title: "Back End Development",
             fileName: "BackendImg",
             skills: [
-                "⚡ Designed, develop, and maintain scalable cloud-based applications",
-                "⚡ Creating application backend in Java, Spring Boot, Microservices",
-                "⚡ Manage and optimize data storage with relational databases and caching strategies.",
+                "⚡ Scalable Cloud Application Development: Designed, develop, and maintain scalable cloud-based applications.",
+                "⚡ Java Backend Development: Creating application backend in Java, Spring Boot, Microservices.",
+                "⚡ Data Storage and Optimization: Manage and optimize data storage with relational databases and caching strategies.",
             ],
             softwareSkills: [{
                     skillName: "Java",
@@ -141,9 +141,9 @@ const skills = {
             title: "Full Stack Development",
             fileName: "FullStackImg",
             skills: [
-                "⚡ Builds seamless applications, connecting Node.js/Express.js backends with Angular frontends and deploying in GCP.",
-                "⚡ Proficient in designing and building RESTful APIs, adhering to best practices for resource management and data exchang",
-                "⚡ Skilled in implementing security measures, including authentication and authorization"
+                "⚡ Full-Stack Application Development: Builds seamless applications, connecting Node.js/Express.js backends with Angular frontends and deploying in GCP.",
+                "⚡ RESTful API Design: Proficient in designing and building RESTful APIs, adhering to best practices for resource management and data exchange.",
+                "⚡ Security Implementation: Skilled in implementing security measures, including authentication and authorization.",
             ],
             softwareSkills: [{
                     skillName: "HTML5",
@@ -201,9 +201,9 @@ const skills = {
             title: "Cloud Infra-Architecture",
             fileName: "CloudInfraImg",
             skills: [
-                "⚡ Deploying, managing and monitorin gapplications on GCP using Google Kubernetes Engine (GKE), Cloud Functions, Cloud Monitoring, Cloud Logging",
-                "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-                "⚡ Proficient in integrating GCP services such as Cloud Postgres, Cloud Storage, and Pub/Sub with Java applications, utilizing appropriate GCP client libraries",
+                "⚡ GCP Application Deployment & Management: Deploy, manage, and monitor applications on GCP using GKE, Cloud Functions, Cloud Monitoring, and Cloud Logging.",
+                "⚡ VM Website and Database Management: Host and maintain websites on virtual machine instances, integrating databases as needed.",
+                "⚡ GCP Service Integration with Java: Integrate GCP services like Cloud Postgres, Cloud Storage, and Pub/Sub with Java applications using client libraries.",
             ],
             softwareSkills: [{
                     skillName: "GCP",
@@ -272,6 +272,58 @@ const skills = {
                 {
                     skillName: "Firebase",
                     fontAwesomeClassname: "simple-icons:firebase",
+                    style: {
+                        color: "#FFCA28",
+                    },
+                },
+            ],
+        },
+        {
+            title: "Web Scraping Specialist",
+            fileName: "WebScrapingImg",
+            skills: [
+                "⚡ Scalable Web Crawling : Engineered a Java Spring Boot platform, designed to efficiently process a high volume of 5 million web pages daily.",
+                "⚡ Dynamic Data Extraction : Leveraged Node.js and Puppeteer to reliably extract data from JavaScript-heavy websites, handling complex client-side interactions.",
+                "⚡ Integrated Data Pipelines : Developed and integrated various APIs, creating seamless data acquisition and processing workflows for efficient data handling."
+            ],
+            softwareSkills: [{
+                    skillName: "Puppeteer",
+                    fontAwesomeClassname: "devicon:puppeteer",
+                    style: {
+                        color: "#4285F4",
+                    },
+                },
+                {
+                    skillName: "Playwright",
+                    fontAwesomeClassname: "devicon:playwright",
+                    style: {
+                        color: "#47A248",
+                    },
+                },
+                {
+                    skillName: "Selenium",
+                    fontAwesomeClassname: "logos:selenium",
+                    style: {
+                        color: "#FFCA28",
+                    },
+                },
+                {
+                    skillName: "Axios",
+                    fontAwesomeClassname: "devicon-plain:axios",
+                    style: {
+                        color: "#7F00FF",
+                    },
+                },
+                {
+                    skillName: "Jsoup",
+                    imageSrc:"jsoup.png",
+                    style: {
+                        color: "#FFCA28",
+                    },
+                },
+                {
+                    skillName: "Beautiful Soup",
+                    imageSrc:"beautifulsoup.png",
                     style: {
                         color: "#FFCA28",
                     },
@@ -541,7 +593,7 @@ const experience = {
 // Projects Page
 const projectsHeader = {
     title: "Projects",
-    description: "My Projects are mostly my skill learings documented as repositories. My best experience is to create my portfolio and deploy it.",
+    description: "My Projects are mostly my skill learings documented as repositories. I have worked on hand on projects building applications & deploying them. ",
 };
 
 const publicationsHeader = {
@@ -580,7 +632,7 @@ const contactPageData = {
     contactSection: {
         title: "Contact Me",
         profile_image_path: "animated_nikitha.png",
-        description: "I am available on Linked In. I will reply within 24 hours. Or Contact me over mail",
+        description: "I am available on Linked In. I will reply within 24 hours. Or Contact me over e-mail",
     },
     
     blogSection: {
