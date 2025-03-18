@@ -135,8 +135,8 @@ class Contact extends Component {
           // </Fade>
           }
         </div>
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
+        {/* <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
+        <TopButton theme={this.props.theme} /> */}
       </div>
     );
   }

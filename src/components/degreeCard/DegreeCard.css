@@ -19,16 +19,16 @@
   margin-bottom: 5px;
 }
 
-.card-img {
-  width: 200px;
+/* .card-img {
+  width: 100px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 80%;
   padding: 0px;
   border: 1px solid #d9dbdf;
   /* background-color: #6c63ff; */
   /* background: transparent; */
-  box-shadow: 5px 5px 5px #d9dbdf;
-}
+  /* box-shadow: 5px 5px 5px #d9dbdf; */
+/* }  */
 
 .body-header {
   max-width: inherit;

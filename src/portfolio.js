@@ -22,7 +22,7 @@ const greeting = {
     logo_name: "Nikitha Nimbalkar",
     nickname: "Nikki",
     subTitle:`A passionate individual with 6 years of experience in software development experience.\n Proven expertise in designing, developing and deploying scalable, high performance applications.\n Specialization in building end to end cloud applications which creates an impact. With domain experties in  Web-data crawling, processing of eCommerce platforms, and Catalog Platforms. Strong problem-solving skills and a passion for continuous learning.`,
-    resumeLink: "https://drive.google.com/file/d/1tzh294-bv6UlK2EF-eQ61JbsMQ1tTzio/view?usp=sharing",
+    resumeLink: "https://drive.google.com/file/d/1QfsvRWFEY-aD8UNVkd1hPEdQGKJvB4Lc/view?usp=sharing",
     portfolio_repository: "https://github.com/nikitha12/Portfolio",
     githubProfile: "https://github.com/nikitha12",
 };
@@ -42,7 +42,7 @@ const socialMediaLinks = [
     },
     {
         name: "Gmail",
-        link: "mailto:anikitha.nimbalkar05@gmail.com",
+        link: "mailto:nikitha.nimbalkar05@gmail.com",
         fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
         backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
     }
@@ -364,8 +364,8 @@ const competitiveSites = {
 
 const degrees = {
     degrees: [{
-            title: "BMS College Of Engineering",
-            subtitle: "B.E in Electronics and Communication Engineering",
+            college: "BMS College Of Engineering",
+            title: "B.E in Electronics and Communication Engineering",
             logo_path: "bmsce.png",
             alt_name: "BMSCE",
             duration: "2014 - 2018",

@@ -10,17 +10,17 @@ class DegreeCard extends Component {
       <div className="degree-card">
         {degree.logo_path && (
           <Flip left duration={2000}>
-            <div className="card-img">
+            {/* <div className="card-img"> */}
               <img
                 style={{
-                  maxWidth: "100%",
-                  maxHeight: "100%",
-                  transform: "scale(1.2)",
+                  maxWidth: "200px",
+                  maxHeight: "200px",
+                  transform: "scale(0.9)",
                 }}
                 src={require(`../../assets/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
               />
-            </div>
+            {/* </div> */}
           </Flip>
         )}
         <Fade right duration={2000} distance="40px">
@@ -34,10 +34,14 @@ class DegreeCard extends Component {
             >
               <div className="body-header-title">
                 <h2 className="card-title" style={{ color: theme.text }}>
-                  {degree.title}
+                <a
+                  href={degree.website_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >{degree.college}</a>
                 </h2>
                 <h3 className="card-subtitle" style={{ color: theme.text }}>
-                  {degree.subtitle}
+                  {degree.title}
                 </h3>
               </div>
               <div className="body-header-duration">
@@ -54,7 +58,7 @@ class DegreeCard extends Component {
                   </p>
                 );
               })}
-              {degree.website_link && (
+              {/* {degree.website_link && (
                 <a
                   href={degree.website_link}
                   target="_blank"
@@ -69,7 +73,7 @@ class DegreeCard extends Component {
                     </p>
                   </div>
                 </a>
-              )}
+              )} */}
             </div>
           </div>
         </Fade>
